@@ -1,0 +1,22 @@
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .2s;
+}
+
+.nav a:hover{
+    font-size: 15px;
+}
+
+.nav a.active{
+    color: grey;
+}
